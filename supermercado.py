@@ -11,6 +11,8 @@ bombril = 900
 assolan = 49
 
 
+
+
 if categoria == "alimentos" and estoque_produto > 50:
     if nome_produto == 'peixe':
         print('a venda de peixe foi confirmada')

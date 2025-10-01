@@ -21,7 +21,7 @@ else:
 
 # Checagem final
 if verificador_email and cpf_valido:
-    print('✅ Dados corretos:', email, cpf ,'💖')
+    print('Dados corretos:', email, cpf ,)
 else:
-    print('❌ Algo foi preenchido incorretamente')
+    print('Algo foi preenchido incorretamente')
 

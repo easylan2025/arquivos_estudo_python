@@ -1,4 +1,4 @@
-meses = ['jan', 'fev', 'mar', 'abr','maio','jun','jul','ago','set','out','nov','dez']
+'''meses = ['jan', 'fev', 'mar', 'abr','maio','jun','jul','ago','set','out','nov','dez']
 vendas_1sem = [25000, 29000, 22200, 17750, 15870, 19900]
 vendas_2sem = [19850, 20120, 17540, 15555, 49051, 9650]
 
@@ -15,4 +15,22 @@ print(f'O melhor mes de vendas foi: {meses[i]} e com o total de {max_vendas} ven
 
 print(f'O pior mes de vendas foi: {meses[j]} e com o total de: {min_vendas} vendas')
 faturamento= sum(ano)
+
 print('O Faturamento total foi: ', faturamento)
+
+ano2=ano.copy()
+ano2=ano2.clear()
+ano3= ano[:]
+print(ano3)'''
+
+vendedor = ['joao', 'carlos', 'jose']
+produtos = ['ipad', 'iphone']
+vendas = [
+    [200, 100],
+    [150, 190],
+    [800, 150],
+]
+
+vendas[0][1]= 600
+vendas_ipad_joao = vendas[0][1]
+print(vendedor[0], vendas_ipad_joao)
