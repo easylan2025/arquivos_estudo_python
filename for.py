@@ -12,3 +12,32 @@ for i, estoque in enumerate(estoque):
         print('O estoque mínimo do produto: {} foi atingido, o estoque atual é: {}'. format(produtos[i], estoque ))
 
 print('fim do programa')
+
+
+'''meta= 10000
+vendas= [
+    ['marcelo', 99998],
+    ['joão', 15000],
+    ['pedro', 7000],
+    ['gustavo', 85000]
+]
+
+for i, venda in enumerate(vendas) :
+    if vendas[i][1] > meta:
+        print(vendas[i])
+'''
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
