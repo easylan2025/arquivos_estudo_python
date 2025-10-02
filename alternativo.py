@@ -10,11 +10,8 @@ estoque = [
 for i, estoque_fabrica in enumerate(estoque):
     fabrica = fabricas[i]
        
-    for j, qtd in enumerate(estoque_fabrica, start= 1):
+    for x, qtd in enumerate(estoque_fabrica, start= 1):
         if qtd < nivel_minimo:
-            print('A Fabrica: {}, possui o item: {} com estoque atual: {}'.format(fabrica, j, qtd))
-            #mais codigo 
-            #mais codigo #mais codigo 
-            #mais codigo 
-            #mais codigo 
-            #mais codigo 
+            print('A Fabrica: {}, possui o item: {} com estoque atual: {}'.format(fabrica, x, qtd))
+
+#o animal nao mecha ai 
