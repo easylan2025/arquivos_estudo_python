@@ -1,0 +1,77 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background: #f4f6f9;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+header h1 {
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-bottom: 8px;
+}
+
+header .contato {
+    font-size: 0.95rem;
+    color: #555;
+}
+
+header .contato a {
+    color: #2980b9;
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 1.4rem;
+    color: #2c3e50;
+    margin: 20px 0 10px;
+    border-bottom: 2px solid #2980b9;
+    padding-bottom: 4px;
+}
+
+h3 {
+    font-size: 1.1rem;
+    color: #34495e;
+    margin: 15px 0 5px;
+}
+
+h3 span {
+    font-weight: normal;
+    font-size: 0.9rem;
+    color: #888;
+}
+
+p, li {
+    font-size: 1rem;
+    margin-bottom: 8px;
+}
+
+ul {
+    margin-left: 20px;
+}
+
+.job {
+    margin-bottom: 20px;
+}
