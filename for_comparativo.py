@@ -25,3 +25,6 @@ for i, estoque_fabrica in enumerate(estoque):
         if qtd < nivel_minimo:
             print('A Fabrica: {}, possui o item: {} com estoque atual: {}'.format(fabrica, j, qtd))
 '''
+
+#mais codigo 
+            #mais codigo 
