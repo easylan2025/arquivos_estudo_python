@@ -77,3 +77,5 @@ while True:
 horas = total_minutos // 60
 minutos = total_minutos % 60
 print(f"\nTempo total registrado: {horas} horas e {minutos} minutos.")
+
+#vish
