@@ -27,7 +27,7 @@ for i, venda in enumerate(vendas) :
         print(vendas[i])
 '''
 
-fabricas = ['Marcelo industries', 'china in box', 'marvel', 'ifood']
+'''fabricas = ['Marcelo industries', 'china in box', 'marvel', 'ifood']
 nivel_minimo = 50
 estoque = [
     [225,322,7457,11,685,3249,854,33,7861],
@@ -42,6 +42,33 @@ for i, estoque_fabrica in enumerate(estoque):
     for j, qtd in enumerate(estoque_fabrica, start= 1):
         if qtd < nivel_minimo:
             print('A Fabrica: {}, possui o item: {} com estoque atual: {}'.format(fabrica, j, qtd))
+'''
+
+meta = 1000
+bateu_meta =[]
+funcionarios =0
+maior_venda_nome=None
+maior_venda=0
+
+vendas = [
+    ['joao', 150],
+    ['marcelo', 90000],
+    ['pedro', 700],
+    ['jorge', 9007],
+    ['shirley', 20000]
+]
+
+for venda in vendas:
+    funcionarios +=1
+    if venda[1] > meta:
+        bateu_meta.append(venda)
+        
+    if venda[1] > maior_venda:
+        maior_venda_nome = venda[0]
+        maior_venda = venda[1]
+
+print("porcentagem {:.2%}".format(len(bateu_meta) / funcionarios), bateu_meta)
+print("O maior vendedor foi: {} {}".format(maior_venda_nome, maior_venda))
 
 
 
